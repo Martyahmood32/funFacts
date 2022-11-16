@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h1 {
+  color: #bb0a21;
+  font-size: 100px;
+  text-shadow: 2px 2px 3px black;
+  text-align: center;
+}
+body {
+  background: url(https://cdna.artstation.com/p/assets/images/images/033/452/678/large/rishav-gupta-avengers-assemble.jpg?1609668157);
+}
+
+h2 {
+  box-shadow: #bb0a21;
+  color: #fff;
+  text-shadow: 2px 2px 3px #bb0a21;
+  padding-top: 40px;
+  text-align: center;
+}
+/* 
+#homeButton {
+  width:200px ;
+  height: 37px;
+}
+
+#goHome {
+  text-align: center;
+  width: 200px;
+  height: 37px;
+  margin-left: 50px;
+  margin-top: 280px;
+}
+
+#goToFactTwo {
+  width: 200px;
+  height: 37px;
+  margin-left: 1500px;
+  margin-bottom: 70px;
+}
+
+#goToFactThree {
+  width: 200px;
+  height: 37px;
+  margin-left: 1500px;
+  margin-bottom: 70px;
+} */
+
+.button-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 300px;
+}
